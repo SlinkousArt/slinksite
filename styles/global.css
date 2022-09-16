@@ -1,0 +1,64 @@
+/* Vars */
+
+:root {
+    --light: #efefef;
+    --dark: #111111;
+    --mid1: #3b3b3b;
+    --mid2: #666666;
+    --lighter: #ffffff;
+}
+
+html {
+    background-color: var(--dark);
+}
+
+* {
+    color: var(--light);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 10px;
+    font-weight: 300;
+}
+
+p {
+    font-size: 15px;
+    margin: 10px;
+}
+
+
+hr {
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid var(--light);
+}
+
+/* Buttons */
+
+.button {
+    background-color: transparent;
+    border: 1px solid var(--light);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: 3px 3px var(--mid2);
+}
+.button:active {
+    background-color: var(--light);
+    color: var(--dark);
+}
+.button:focus {
+    outline: none;
+}
