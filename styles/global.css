@@ -22,6 +22,10 @@ html {
     font-family: 'Source Code Pro', monospace;
 }
 
+a {
+  font-family: 'Source Code Pro', monospace;
+}
+
 h1 {
     font-size: 48px;
     margin: 10px;
