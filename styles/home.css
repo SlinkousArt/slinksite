@@ -1,11 +1,19 @@
 @import 'global.css';
 
+body {
+  text-align: center;
+}
+
 .header {
     color: var(--light);
     padding: 32px;
-    width: 100%;
+    width: 90%;
+    max-width: 1500px;
     box-sizing: border-box;
     align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .flexContainer {
