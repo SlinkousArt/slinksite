@@ -1,0 +1,59 @@
+@import 'global.css';
+:root {
+    --ismobiledisp: block;
+    --isdesktopdisp: none;
+}
+
+.splitter{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1000px) {
+    .splitter {
+        flex-direction: row;
+    }
+    :root {
+        --ismobiledisp: none;
+        --isdesktopdisp: block;
+    }
+}
+
+.left {
+    flex: 1;
+    padding: 0 1rem;
+    margin-right: 1rem;
+}
+.right {
+    flex: 1;
+    padding: 0 1rem;
+    margin-left: 1rem;
+}
+.right .worktitle {
+    text-align: center;
+}
+
+.left img {
+    width: 100%;
+}
+
+.buttonBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.buttonBar .button {
+    margin: 0.5rem;
+    min-width: fit-content;
+    padding: 0.25rem 0.5rem;
+}
+
+.landscapeonly {
+    display: var(--isdesktopdisp);
+}
+
+.horizontalonly {
+    display: var(--ismobiledisp);
+}
