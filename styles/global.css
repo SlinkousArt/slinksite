@@ -96,3 +96,11 @@ footer {
     height: 100%;
     align-items: center;
 }
+
+.footleft, .footmiddle, .footright {
+    flex: 1;
+}
+
+.triSplit .right {
+    vertical-align: center;
+}
