@@ -1,7 +1,7 @@
 @import 'global.css';
 
 #bg {
-    background-image: url(/images/bg2.png);
+    background-image: url(/images/bg2.jxl);
     background-size: cover;
     display:block;
     position: fixed;
